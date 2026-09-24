@@ -1,0 +1,6 @@
+load('student_ages.mat','age')
+min(age)
+max(age)
+length(age)
+histogram(age, 6)
+print('ages.png', '-dpng')
