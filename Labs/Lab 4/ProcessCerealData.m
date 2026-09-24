@@ -7,7 +7,7 @@ figure();
 maxSugar = max(cereal(:,8));
 bins = -0.5:1:1 + maxSugar;
 histogram(cereal(:,8), bins);
-xlabel('Sugar (g)');
+xlabel('Sugars (g)');
 ylabel('# of Cereals');
 title('Sugar Contents in Cereals');
 ax = gca;
