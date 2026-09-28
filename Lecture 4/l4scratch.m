@@ -1,0 +1,1 @@
+[minLevel, maxLevel, avgLevel, targetMet] = assayLevels('reactionPlateData2.csv', 2.814, 0.009, 1.367)
