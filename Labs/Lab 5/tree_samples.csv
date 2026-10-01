@@ -1,0 +1,25 @@
+﻿Species,Type,Number,Min Diameter (cm),Max Diameter (cm)
+Oak,Northern Red,4578,0,10
+Oak,Northern Red,904,11,20
+Oak,Northern Red,400,21,30
+Oak,Northern Red,162,31,40
+Oak,Northern Red,169,41,50
+Oak,Northern Red,53,51,100
+Oak,Black,2476,0,10
+Oak,Black,539,11,20
+Oak,Black,647,21,30
+Oak,Black,462,31,40
+Oak,Black,127,41,50
+Oak,Black,34,51,100
+Maple,Sugar,1352,0,10
+Maple,Sugar,597,11,20
+Maple,Sugar,480,21,30
+Maple,Sugar,430,31,40
+Maple,Sugar,85,41,50
+Maple,Sugar,49,51,100
+Maple,Silver,2809,0,10
+Maple,Silver,965,11,20
+Maple,Silver,212,21,30
+Maple,Silver,266,31,40
+Maple,Silver,219,41,50
+Maple,Silver,57,51,100
