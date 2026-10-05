@@ -1,5 +1,5 @@
-% <Your Name> 
-% <Lab Section Number> 
+% Vihaan Das 
+% 126 
 % <Date Submitted>
 
 %------------------------------------------------------
@@ -8,7 +8,6 @@
 % feedback('all')
 % 4d56ac82-3232-4493-bb2f-f76ce9e60751
 %------------------------------------------------------
-
 
 
 function [ c1, c2, c3, c4, c5 ] = analyzeWindFarm( filenameWind, ...
@@ -46,9 +45,23 @@ function [ c1, c2, c3, c4, c5 ] = analyzeWindFarm( filenameWind, ...
 %                    c5: boolean values corresponding to whether the wind 
 %                        farm location passes constraint #5
 
-%% YOUR CODE HERE
+% Read data files
+avgWindSpd = csvread(filenameWind);
+avgWaveHgt = csvread(filenameWave);
+buLoc = csvread(filenameBuoy, 1, 0, [1, 0, 1, 3]);
+buData = csvread(filenameBuoy, 5, 0);
 
+% Evaluate constraints
+c1 = (avgWindSpd(buLoc(2), buLoc(3)) >= windSpeedMin) & (avgWindSpd(buLoc(2), buLoc(3)) <= windSpeedMax);
 
+c2 = avgWaveHgt(buLoc(2), buLoc(3)) < waveHeightMax;
+
+c3 = mean(buData(:, 2) < waveHeightMax) > (waveHeightRisk / 100);
+
+rogueWaveHgt = buData(:, 2) * 2;
+c4 = floor(mean(rogueWaveHgt < deckHeight));
+
+sdBuHgt = std(buData(:, 2));
+c5 = sdBuHgt < (0.05 * avgWaveHgt(buLoc(2), buLoc(3)));
 
 end
-
