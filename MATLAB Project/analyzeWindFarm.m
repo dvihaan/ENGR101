@@ -1,6 +1,6 @@
 % Vihaan Das 
 % 126 
-% <Date Submitted>
+% <10/5/2026>
 
 %------------------------------------------------------
 % AUTOGRADER INFO -- IGNORE BUT DO NOT REMOVE 
@@ -45,7 +45,7 @@ function [ c1, c2, c3, c4, c5 ] = analyzeWindFarm( filenameWind, ...
 %                    c5: boolean values corresponding to whether the wind 
 %                        farm location passes constraint #5
 
-% Read data files
+% Read in data
 avgWindSpd = csvread(filenameWind);
 avgWaveHgt = csvread(filenameWave);
 buLoc = csvread(filenameBuoy, 1, 0, [1, 0, 1, 3]);
