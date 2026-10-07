@@ -88,7 +88,7 @@ title('Potential Wind Farm Locations');
 
 % Plot 4: histogram of buoy wave heights
 subplot(3,2,4);
-histogram(buoyData(:,2), 15, 'FaceColor', [0.5 0.7 0.9]);
+histogram(buoyData(:,2));
 grid on;
 xlabel('wave height (m)');
 ylabel('number of occurrences');
@@ -97,15 +97,15 @@ title('Wave Heights at Buoy Location');
 % Plot 5: buoy vs global average wave height vs time
 subplot(3,2,[5 6]);
 localWaveHeight = waveData(buoyLoc(2), buoyLoc(3));
-plot(buoyData(:,1), buoyData(:,2), 'b', 'LineWidth', 1.2);
+plot(buoyData(:,1), buoyData(:,2));
 hold on;
-plot(buoyData(:,1), ones(size(buoyData(:,1))) * localWaveHeight, 'r', ...
-    'LineWidth', 1.2);
+plot(buoyData(:,1), ones(size(buoyData(:,1))) * localWaveHeight);
 hold off;
-legend('Buoy-measured', 'Global average', 'Location', 'best');
+legend('Buoy-measured', 'Global average', 'Location', 'northeast');
 xlabel('time (hours)');
 ylabel('wave height (m)');
 title('Wave Height Comparison: Global to Local');
+grid on;
 
 print(gcf, '-dpng', 'environmentalSummary.png');
 
