@@ -1,0 +1,7 @@
+TransactionID,Item,Price,Tipped,Time
+dj42,Espresso,2.1,1,11:43
+84nd,Americano,2.9,0,14:56
+23fs,Green Tea,3,0,8:02
+34ws,Espresso,2.1,1,9:51
+13ds,Cortado,3,0,7:59
+as13,Americano,2.9,0,10:07
