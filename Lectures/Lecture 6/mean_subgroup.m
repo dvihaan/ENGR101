@@ -14,4 +14,3 @@ function [mean_values] = mean_subgroup(data,group)
     mean_values = [mean_values(:,end) mean_values(:,1:end-1)];
     
 end
-
