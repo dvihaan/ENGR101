@@ -49,10 +49,6 @@ buoyData = csvread(filenameBuoy, 5, 0);
 %% Make Plots
 
 figure(1);
-set(gcf, 'Units', 'inches');
-set(gcf, 'Position', [0, 0, 10, 12.5]);
-set(gcf, 'PaperPositionMode', 'manual');
-set(gcf, 'PaperPosition', [0, 0, 10, 12.5]);
 
 % Plot 1: global wind map
 subplot(3,2,1);
