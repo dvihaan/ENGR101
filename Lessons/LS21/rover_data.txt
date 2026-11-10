@@ -1,0 +1,10 @@
+Light a238 10 53.2
+Light a239 10 108.9
+Light b154 10 3.2
+
+Speedy a294 30 0.5
+Speedy a110 30 128.4
+Speedy a287 30 47.2
+
+Big b102 65 19.6
+Big c321 65 149.0

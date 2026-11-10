@@ -1,0 +1,8 @@
+Light Rover #a238 has 10kg capacity and needs 53.2 Watts charge.
+Light Rover #a239 has 10kg capacity and needs 108.9 Watts charge.
+Light Rover #b154 has 10kg capacity and needs 3.2 Watts charge.
+Speedy Rover #a294 has 30kg capacity and needs 0.5 Watts charge.
+Speedy Rover #a110 has 30kg capacity and needs 128.4 Watts charge.
+Speedy Rover #a287 has 30kg capacity and needs 47.2 Watts charge.
+Big Rover #b102 has 65kg capacity and needs 19.6 Watts charge.
+Big Rover #c321 has 65kg capacity and needs 149 Watts charge.
