@@ -1,0 +1,3 @@
+shipA	Gondor	10	5.5
+shipB	Genovia	55	7.9
+shipC	Arrakis	34.5	12
