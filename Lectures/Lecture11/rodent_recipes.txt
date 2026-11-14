@@ -1,0 +1,6 @@
+Mouse_Food 10 60 0
+Rat_Chow 20 15 0
+Adult_Guinea_Pig_Food 20 8 0
+Young_Capybara_Meal 65 2 0
+Ferret_Food 15 4 0
+Gerbil_Chow 20 20 0

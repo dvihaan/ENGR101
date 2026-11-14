@@ -1,0 +1,5 @@
+Adult_Cat_Food 45 30 1
+Newborn_Kitten_Milk_Replacement 30 1 0
+Overweight_Cat_Meal 15 6 0
+Senior_Cat_Food 30 15 1
+Underweight_Cat_Meal 25 6 1 

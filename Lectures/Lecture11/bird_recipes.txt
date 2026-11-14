@@ -1,0 +1,3 @@
+Hawk_Food 65 4 1
+Canary_Food 25 15 1
+Macaw_Food 10 2 0

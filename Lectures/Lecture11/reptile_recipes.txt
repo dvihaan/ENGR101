@@ -1,0 +1,3 @@
+Snake_Food 25 2 1
+Turtle_Chow 20 4 0
+Iguana_Food 40 8 1
